@@ -11,9 +11,9 @@ All data is scraped from the following locations:
 
 ## Example Output
 
-Scraped data is gathered, stored in a local DB, and presented via a Python Flask application.
+Scraped data is gathered, stored in a local Mongo DataBase called 'mars_db', and presented via a Python Flask application.
 
-![png](example-page.png "Example Output")
+![Mongo_Compass_Mars_db.png](Mongo_Compass_Mars_db.png "Database MongoDB Compass displaying the document collection")
 
 
 
