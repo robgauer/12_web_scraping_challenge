@@ -1,6 +1,26 @@
+#  Web Scraping Homework - Mission to Mars
+A webscraping application which retrieves and presents summary information, the latest news, and images of Mars.
+
+## Data Sources
+All data is scraped from the following locations:
+* [Nasa Mars News Site](https://mars.nasa.gov/news/)
+* [JPL Space Images](https://www.jpl.nasa.gov/spaceimages/?search=&category=Mars)
+* [Mars Weather Twitter Account](https://twitter.com/marswxreport?lang=en)
+* [Space Facts](http://space-facts.com/mars/)
+* [USGS](https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars)
+
+## Example Output
+
+Scraped data is gathered, stored in a local DB, and presented via a Python Flask application.
+
+![png](example-page.png "Example Output")
+
+
+
+
 # Web Scraping Homework - Mission to Mars
 
-![mission_to_mars](./Images/mission_to_mars.png)
+![mission_to_mars](./Instructions/Images/mission_to_mars.png)
 
 In this assignment, you will build a web application that scrapes various websites for data related to the Mission to Mars and displays the information in a single HTML page. The following outlines what you need to do.
 
@@ -102,8 +122,8 @@ Use MongoDB with Flask templating to create a new HTML page that displays all of
 
 * Create a template HTML file called `index.html` that will take the mars data dictionary and display all of the data in the appropriate HTML elements. Use the following as a guide for what the final product should look like, but feel free to create your own design.
 
-![final_app_part1.png](./Images/final_app_part1.png)
-![final_app_part2.png](./Images/final_app_part2.png)
+![final_app_part1.png](./Instructions/Images/final_app_part1.png)
+![final_app_part2.png](./Instructions/Images/final_app_part2.png)
 
 - - -
 
